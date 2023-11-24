@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 20px;
     margin: 14px;
-    max-width: auto 0;
+    max-width: 0 auto;
 }
 
 /* Capçaleres i body text */
@@ -203,7 +203,7 @@ body.open .menu ul li {
 }
 
 .temporada iframe {
-        width: 100%;
+        max-width: auto 0;
         height: 315px;
 }
 
