@@ -26,36 +26,43 @@
     </head>
     <body>
         <section class="menu">
-            <button class="burger" onclick="toggleMenu(open)">
-            </button>
-            <nav class="menu">
-                <div></div>
-                <div style="transition-delay: 0.1s"></div>
-                <div style="transition-delay: 0.2s"></div>
-                <div style="transition-delay: 0.3s"></div>
-                <div style="transition-delay: 0.4s"></div>
-                    <ul>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/index.html" class="active">Inicio</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/temporadas.html">Temporadas</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/personajes.html">Personajes</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/behind-scenes.html">Behind the scenes</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/enlaces.html">Enlaces externos</a>
-                        </li>
-                    </ul>
+            <nav>
+                <div class="menu-icon" id="menuIcon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </div>
+                <div class="overlay" id="overlay">
+                    <div class="menu">
+                        <div class="menu-close" id="menuClose">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M18 6L6 18"/>
+                                <path d="M6 6l12 12"/>
+                            </svg>
+                        </div>
+                            <ul>
+                                <li style="animation-delay: 0.5s">
+                                    <a href="/index.html" class="active">Inicio</a>
+                                </li>
+                                <li style="animation-delay: 0.5s">
+                                    <a href="/temporadas.html">Temporadas</a>
+                                </li>
+                                <li style="animation-delay: 0.5s">
+                                    <a href="/personajes.html">Personajes</a>
+                                </li>
+                                <li style="animation-delay: 0.5s">
+                                    <a href="/behind-scenes.html">Behind the scenes</a>
+                                </li>
+                                <li style="animation-delay: 0.5s">
+                                    <a href="/enlaces.html">Enlaces externos</a>
+                                </li>
+                            </ul>
+                        </div>
+                <div class="overlay" onclick="closeMenu()"></div>
             </nav>
-            <script type="text/javascript">
-                const toogleMenu = (open) =>
-                document.body.classList.toggle("open");
-            </script>
+            <script src="script-menu.js"></script>
         </section>
         <section class="header">
             <picture>
@@ -76,7 +83,7 @@
             <h3>¡Descubre Élite en Netflix!</h3>
             <a href="https://www.netflix.com/es/title/80200942" aria-label="Haz click para acceder al web oficial de la serie Élite de Netflix" target="_blank">
                 <button>
-                    <p>Accede a la página oficial de la serie</p>
+                    <p>Accede a la página oficial</p>
                     <span> &rarr; </span>
                 </button>
             </a>
