@@ -25,6 +25,7 @@ h1 {
     margin-bottom: 40px;
     font-size: 20px;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -34,6 +35,7 @@ h2 {
     margin-top: 30px;
     font-size: 18px;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -43,15 +45,17 @@ h3 {
     margin-top: 20px;
     font-size: 16px;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 h4 {
-    text-align: center;
+    text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 20px;
     margin-top: 10px;
     font-size: 14px;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 p {
@@ -65,7 +69,7 @@ p {
 
 blockquote {
     border-left: 4px solid #ffffff;
-    margin: 0;
+    margin: 40px;
     padding: 10px 20px;
     background-color: #000000;
     color: #ffffff;
@@ -187,6 +191,8 @@ body.open .menu ul li {
 /* Pàgina de detall */
 
 .pagina-detalle article {
+    max-width: 300px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,6 +214,8 @@ body.open .menu ul li {
 }
 
 .pagina-detalle article button {
+    max-width: 300px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -252,6 +260,8 @@ iframe {
     max-width: 100%;
     width: 100%;
     height: 640px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 /* Footer */
@@ -268,6 +278,8 @@ footer {
 }
 
 footer article {
+    max-width: 300px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -289,6 +301,8 @@ footer article h3 {
 }
 
 footer article button {
+    max-width: 300px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -322,10 +336,8 @@ section.top-footer {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: grid;
+    display: block;
     gap: 30px;
-    grid-template-columns:
-        repeat(2, 1fr);
 }
 
 section.top-footer ul li {
@@ -352,7 +364,7 @@ section.bottom-footer {
 
 /* Responsive mobile pantalles petites */
 
-@media (width > 480px) {
+@media (width < 480px) {
     
     footer article button {
             width: 70%;
@@ -378,18 +390,21 @@ section.bottom-footer {
 
 /* Responsive tablet i mobile pantalles més grans*/
 
-@media (width > 600px) {
+@media (width < 800px) {
 
     footer article {
+        max-width: 300px;
+        margin: 0 auto;
         flex-direction: row;
         min-height: 140px;
-        margin: -70px 20px 20px;
         padding: 30px 50px 30px;
     }
 
     footer article button {
         width: auto;
         padding: 0 20px 0 24px;
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     section.top-footer ul {
@@ -402,11 +417,15 @@ section.bottom-footer {
         min-height: 140px;
         margin: -70px 20px 20px;
         padding: 30px 50px 30px;
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     .pagina-detalle article button {
         width: auto;
         padding: 0 20px 0 24px;
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     .videos-grid {
