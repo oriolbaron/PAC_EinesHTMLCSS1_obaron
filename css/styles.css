@@ -72,6 +72,13 @@ blockquote {
     font-size: 14px;
 }
 
+/* Header */
+
+.header picture {
+    max-width: 400px;
+    margin: 0 auto
+}
+
 /*Menu navegació*/
 
 .menu nav ul li a.active {
