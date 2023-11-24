@@ -80,9 +80,12 @@ blockquote {
 /* Header */
 
 .header {
-    max-width: 400px;
     margin: 0 auto;
     text-align: center;
+}
+
+.header img {
+    max-width: 400px;
 }
 
 /*Menu navegació*/
@@ -367,11 +370,13 @@ section.bottom-footer {
 }
 
 .footer-pict {
-    max-width: 200px;
     margin: 0 auto;
     text-align: center;
 }
 
+.footer-pict img {
+    max-width: 200px;
+}
 
 /* Responsive mobile pantalles petites */
 
