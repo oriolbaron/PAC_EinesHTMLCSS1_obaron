@@ -79,10 +79,9 @@ blockquote {
 
 /* Header */
 
-.header img {
+.header {
     max-width: 400px;
     margin: 0 auto;
-    align-items: center;
     text-align: center;
 }
 
@@ -367,10 +366,9 @@ section.bottom-footer {
     font-size: 13px;
 }
 
-.footer-pict img {
+.footer-pict {
     max-width: 200px;
     margin: 0 auto;
-    align-items: center;
     text-align: center;
 }
 
