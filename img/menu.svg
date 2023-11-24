@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>menu-svg</title>
+	<defs>
+		<image  width="20" height="2" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACAQMAAABiyG7IAAAAAXNSR0IB2cksfwAAAAZQTFRF////////VXz1bAAAAAJ0Uk5Tv/84zJDCAAAADklEQVR4nGOo//+AAYgBEjYEvVU2l0YAAAAASUVORK5CYII="/>
+		<image  width="20" height="2" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACAQMAAABiyG7IAAAAAXNSR0IB2cksfwAAAAZQTFRF////////VXz1bAAAAAJ0Uk5Tv/84zJDCAAAADklEQVR4nGOo//+AAYgBEjYEvVU2l0YAAAAASUVORK5CYII="/>
+		<image  width="20" height="2" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACAQMAAABiyG7IAAAAAXNSR0IB2cksfwAAAAZQTFRF////////VXz1bAAAAAJ0Uk5Tv/84zJDCAAAADklEQVR4nGOo//+AAYgBEjYEvVU2l0YAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="2" y="11"/>
+	<use id="Layer" href="#img2" x="2" y="5"/>
+	<use id="Layer" href="#img3" x="2" y="17"/>
+</svg>
