@@ -1,0 +1,16 @@
+{
+  "name": "pac1-eineshtmlicss-oriolbaron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "posthtml-include": "^1.7.4"
+  }
+}
