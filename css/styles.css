@@ -9,8 +9,8 @@ body {
     background-color: black;
     margin: 0;
     padding: 20px;
-    margin: 14px;
-    max-width: 0 auto;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 /* Capçaleres i body text */
