@@ -1,7 +1,9 @@
 /* Head */
 head {
     background-color: black;
-    padding: 10px
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
   
 /* Body */
@@ -252,6 +254,8 @@ footer {
     bottom: 0;
     right: 0;
     padding-bottom: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 footer article {
