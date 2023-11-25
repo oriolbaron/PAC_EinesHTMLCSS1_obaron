@@ -122,7 +122,8 @@ blockquote {
 .navbar a:active {
     text-decoration: none;
     color: #af0a0a;
-    font-size: 18px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 /* Pàgina de presentació */
