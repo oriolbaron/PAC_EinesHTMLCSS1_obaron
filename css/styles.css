@@ -298,10 +298,8 @@ section.top-footer img {
 }
 
 section.top-footer {
-    list-style: none;
     padding: 0;
     margin: 0;
-    display: block;
     gap: 30px;
 }
 
@@ -316,6 +314,7 @@ section.top-footer a {
     margin-bottom: 10px;
     color: #ffffff;
     text-decoration: none;
+    display: block;
 }
 
 section.top-footer ul {
