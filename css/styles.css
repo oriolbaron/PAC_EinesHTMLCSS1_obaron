@@ -229,7 +229,7 @@ iframe {
 /* Footer */
 
 footer {
-    background-color: #000000;
+    background-color: #670000;
     left: 0;
     bottom: 0;
     right: 0;
@@ -333,10 +333,9 @@ section.top-footer h4 {
 
 section.bottom-footer {
     padding-top: 10px;
-    border-top: 2px solid
-        rgb(255, 255, 255 / 10%);
-    color: rgb(255, 255, 255 / 40%);
-    font-size: 13px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-pict {
