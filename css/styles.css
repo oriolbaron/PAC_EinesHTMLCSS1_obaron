@@ -257,9 +257,6 @@ iframe {
 
 footer {
     background-color: #670000;
-    left: 0;
-    bottom: 0;
-    right: 0;
     padding: 20px;
     margin: 0 auto;
     margin-top: 40px;
@@ -275,7 +272,6 @@ section.top-footer {
     padding-top: 30px;
     margin-bottom: 48px;
     max-width: 1200px;
-    margin: 0 auto;
 }
 
 section.top-footer img {
@@ -304,6 +300,7 @@ section.top-footer a {
     display: block;
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 section.top-footer ul {
