@@ -246,6 +246,10 @@ li strong {
     font-size: 16px;
 }
 
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Vídeos YouTube */
 
 .videos-grid {
