@@ -65,6 +65,7 @@ p {
     line-height: 1.25;
     font-size: 16px;
     color: #ffffff;
+    margin-bottom: 20px;
 }
 
 blockquote {
@@ -145,6 +146,7 @@ blockquote {
     max-width: 450px;
     height: auto;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 /* Pàgina de detall */
