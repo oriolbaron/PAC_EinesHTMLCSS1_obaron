@@ -91,11 +91,13 @@ blockquote {
 /*Menu navegació*/
 
 .navbar {
-    background-color: #333;
+    background-color: #000000;
     padding: 10px;
     position: fixed;
     width: 100%;
     top: 0;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .navbar ul {
@@ -107,6 +109,9 @@ blockquote {
 
 .navbar li {
     margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
 }
 
 .navbar a {
