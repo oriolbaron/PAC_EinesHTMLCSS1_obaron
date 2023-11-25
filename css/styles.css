@@ -85,7 +85,9 @@ blockquote {
 }
 
 .header img {
-    max-width: 300px;
+    max-width: 350px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /*Menu navegació*/
