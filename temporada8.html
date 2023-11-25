@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>¿Qué es Élite?</title>
+        <title>Temporada 8 de Élite</title>
         <meta name="description" content="Las Encinas es el colegio más exclusivo del país, el lugar donde estudian los hijos de la élite. Un mundo privilegiado con fiestas de alta sociedad, niños ricos, sexo y drogas y donde nada es lo que parece.">
         <meta name="keywords" content="élite, netflix, serie, adolescente, españa, las encinas">
         <meta name="author" content="Netflix">
@@ -25,40 +25,30 @@
         <link rel="stylesheet" href="/css/styles.css">            
     </head>
     <body>
-        <section class="menu">
-            <button class="burger" onclick="toggleMenu()">
-            </button>
-            <nav class="menu">
-                <div></div>
-                <div style="transition-delay: 0.1s"></div>
-                <div style="transition-delay: 0.2s"></div>
-                <div style="transition-delay: 0.3s"></div>
-                <div style="transition-delay: 0.4s"></div>
-                    <ul>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/index.html">Inicio</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/presentacion.html" class="active">¿Qué es Élite?</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/temporadas.html">Temporadas</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/personajes.html">Personajes</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/behind-scenes.html">Behind the scenes</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/enlaces.html">Enlaces externos</a>
-                        </li>
-                    </ul>
-            </nav>
-            <script type="text/javascript">
-                const toogleMenu = ( ) =>
-                document.body.classList.toggle("open");
-            </script>
+        <section class="navbar">
+            <ul>
+                <li>
+                    <a href="/index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="/temporadas.html">Temporadas</a>
+                </li>
+                <li>
+                    <a href="/personajes.html">Personajes</a>
+                </li>
+                <li>
+                    <a href="/behind-scenes.html" class="active">Behind the scenes</a>
+                </li>
+                <li>
+                    <a href="/enlaces.html">Enlaces externos</a>
+                </li>
+            </ul>
+        </section>
+        <section class="header">
+            <picture>
+                <source srcset="/img/logo-elite.webp" type="image/webp">
+                <img src="/img/logo-elite.webp" alt="Logo oficial de Élite">
+            </picture>
         </section>
         <section>
             <h1>¿Qué pasa en el final de la temporada 7? ¡Alerta con los spoilers!</h1>
@@ -109,19 +99,23 @@
                 <a href="#" class="hidden-link">Ya se conocen algunos detalles de la octava temporada de Élite</a>
             </div>
         </section>
-    </body>
-    <footer>
-        <article>
+        <article class="official-website">
             <h3>¡Descubre Élite en Netflix!</h3>
             <a href="https://www.netflix.com/es/title/80200942" aria-label="Haz click para acceder al web oficial de la serie Élite de Netflix" target="_blank">
                 <button>
-                    <p>Accede a la página oficial de la serie</p>
                     <span> &rarr; </span>
                 </button>
             </a>
         </article>
+    </body>
+    <footer>
+        <section class="footer-pict">
+            <picture>
+                <source srcset="/img/logo-elite-white.webp" type="image/webp">
+                <img src="/img/logo-elite-white.webp" alt="Logo de la serie Élite de Netflix">
+            </picture>
+        </section>
         <section class="top-footer">
-            <img src="/img/logo-elite-white.webp" alt="Logo de la serie Élite de Netflix">
             <ul>
                 <li>
                     <h4>Páginas</h4>
@@ -130,8 +124,6 @@
                         <a href="/temporadas.html">Temporadas</a>
                         <a href="/personajes.html">Personajes</a>
                         <a href="/behind-scenes.html">Behind the scenes</a>
-                </li>
-                <li>
                     <h4>Recursos</h4>
                         <a href="/enlaces.html">Enlaces externos</a>
                 </li>
