@@ -3,61 +3,52 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Élite en Netflix</title>
+        <title>Las temporadas de Élite en Netflix</title>
         <meta name="description" content="Las Encinas es el colegio más exclusivo del país, el lugar donde estudian los hijos de la élite. Un mundo privilegiado con fiestas de alta sociedad, niños ricos, sexo y drogas y donde nada es lo que parece.">
         <meta name="keywords" content="élite, netflix, serie, adolescente, españa, las encinas">
         <meta name="author" content="Netflix">
         <meta name="robots" content="index, follow">
-        <meta property="og:title" content="Élite en Netflix">
+        <meta property="og:title" content="Las temporadas de Élite en Netflix">
         <meta property="og:description" content="Las Encinas es el colegio más exclusivo del país, el lugar donde estudian los hijos de la élite. Un mundo privilegiado con fiestas de alta sociedad, niños ricos, sexo y drogas y donde nada es lo que parece.">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://www.elitenetflix.com">
         <meta property="og:image" content="https://www.elitenetflix.com/img/elite-netflix-opengraph.jpg">
         <meta property="og:image:alt" content="Logo de la serie Élite de Netflix">
-        <meta property="og:site_name" content="Élite en Netflix">
+        <meta property="og:site_name" content="Las temporadas de Élite en Netflix">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@elitenetflix">
         <meta name="twitter:creator" content="@elitenetflix">
-        <meta name="twitter:title" content="Élite en Netflix">
+        <meta name="twitter:title" content="Las temporadas de Élite en Netflix">
         <meta name="twitter:description" content="Las Encinas es el colegio más exclusivo del país, el lugar donde estudian los hijos de la élite. Un mundo privilegiado con fiestas de alta sociedad, niños ricos, sexo y drogas y donde nada es lo que parece.">
         <meta name="twitter:image" content="https://www.elitenetflix.com/img/elite-netflix-opengraph.jpg">
-        <link rel="icon" href="/img/nficon2023.ico" type="image/x-icon">            
+        <link rel="icon" href="/img/nficon2023.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/css/styles.css">             
     </head>
     <body>
-        <section class="menu">
-            <button class="burger" onclick="toggleMenu()">
-            </button>
-            <nav class="menu">
-                <div></div>
-                <div style="transition-delay: 0.1s"></div>
-                <div style="transition-delay: 0.2s"></div>
-                <div style="transition-delay: 0.3s"></div>
-                <div style="transition-delay: 0.4s"></div>
-                    <ul>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/index.html">Inicio</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/presentacion.html">¿Qué es Élite?</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/temporadas.html" class="active">Temporadas</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/personajes.html">Personajes</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/behind-scenes.html">Behind the scenes</a>
-                        </li>
-                        <li style="animation-delay: 0.5s">
-                            <a href="/enlaces.html">Enlaces externos</a>
-                        </li>
-                    </ul>
-            </nav>
-            <script type="text/javascript">
-                const toogleMenu = ( ) =>
-                document.body.classList.toggle("open");
-            </script>
+        <section class="navbar">
+            <ul>
+                <li>
+                    <a href="/index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="/temporadas.html" class="active">Temporadas</a>
+                </li>
+                <li>
+                    <a href="/personajes.html">Personajes</a>
+                </li>
+                <li>
+                    <a href="/behind-scenes.html">Behind the scenes</a>
+                </li>
+                <li>
+                    <a href="/enlaces.html">Enlaces externos</a>
+                </li>
+            </ul>
+        </section>
+        <section class="header">
+            <picture>
+                <source srcset="/img/logo-elite.webp" type="image/webp">
+                <img src="/img/logo-elite.webp" alt="Logo oficial de Élite">
+            </picture>
         </section>
         <section class="temporadas">
             <h1>Élite: Descripción de Temporadas</h1>
@@ -117,17 +108,21 @@
         </section>
     </body>
     <footer>
-        <article>
+        <article class="official-website">
             <h3>¡Descubre Élite en Netflix!</h3>
             <a href="https://www.netflix.com/es/title/80200942" aria-label="Haz click para acceder al web oficial de la serie Élite de Netflix" target="_blank">
                 <button>
-                    <p>Accede a la página oficial de la serie</p>
                     <span> &rarr; </span>
                 </button>
             </a>
         </article>
+        <section class="footer-pict">
+            <picture>
+                <source srcset="/img/logo-elite-white.webp" type="image/webp">
+                <img src="/img/logo-elite-white.webp" alt="Logo de la serie Élite de Netflix">
+            </picture>
+        </section>
         <section class="top-footer">
-            <img src="/img/logo-elite-white.webp" alt="Logo de la serie Élite de Netflix">
             <ul>
                 <li>
                     <h4>Páginas</h4>
