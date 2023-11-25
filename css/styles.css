@@ -263,6 +263,7 @@ footer {
     margin: 0 auto;
     margin-top: 40px;
     position: relative;
+    border-top: 2px solid #ffffff;
 }
 
 footer article {
