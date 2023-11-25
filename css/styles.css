@@ -236,10 +236,14 @@ ul {
 li {
     margin-bottom: 15px;
     color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 li strong {
     color: #670000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 /* Vídeos YouTube */
