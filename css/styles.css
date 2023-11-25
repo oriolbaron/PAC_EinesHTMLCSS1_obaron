@@ -12,6 +12,10 @@ body {
     padding: 20px;
 }
 
+section {
+    max-width: 1200px;
+}
+
 /* Capçaleres i body text */
 
 h1 {
