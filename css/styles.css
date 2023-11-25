@@ -1,4 +1,5 @@
 /* Head */
+
 head {
     background-color: black;
     padding: 10px;
@@ -6,6 +7,7 @@ head {
 }
   
 /* Body */
+
 body {
     background-color: black;
     margin: 0 auto;
@@ -77,7 +79,6 @@ blockquote {
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    max-width: 400px;
 }
 
 /* Header */
@@ -150,19 +151,25 @@ blockquote {
     margin-bottom: 20px;
 }
 
+.temporadas {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /* Pàgina de detall */
 
 .pagina-detalle article {
     max-width: 300px;
     margin: 0 auto;
+    margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
     gap: 16px;
     padding: 20px 50px 40px;
-    margin: -99px 20px 20px;
     border-radius: 20px;
     background:
         linear-gradient(
@@ -238,12 +245,10 @@ iframe {
 .official-website button {
     max-width: 300px;
     margin: 0 auto;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    padding: 0 40px 0 44px;
-    width: 100%;
+    width: 20%;
     background: #000000;
     border: 0;
     border-radius: 30px;
@@ -398,18 +403,27 @@ section.bottom-footer {
     .pagina-detalle article {
         flex-direction: row;
         min-height: 140px;
-        margin: -70px 20px 20px;
         padding: 30px 50px 30px;
         max-width: 300px;
         margin: 0 auto;
     }
 
     .pagina-detalle article button {
-        width: auto;
-        padding: 0 20px 0 24px;
         max-width: 300px;
         margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        width: 20%;
+        background: #000000;
+        border: 0;
+        border-radius: 30px;
+        color: #f9f9f9;
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: bold;
     }
+
 
     .videos-grid {
         grid-template-columns: 1fr;
