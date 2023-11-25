@@ -305,14 +305,15 @@ section.top-footer {
 
 section.top-footer ul li {
     margin-bottom: 10px;
-    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    text-decoration: none;
+
 }
 
 section.top-footer ul {
     display: block;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 section.top-footer h4 {
