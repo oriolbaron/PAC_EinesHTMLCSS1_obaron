@@ -269,13 +269,13 @@ footer {
 
 footer section {
     padding: 0 50px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 section.top-footer {
     padding-top: 30px;
     margin-bottom: 48px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 section.top-footer img {
@@ -320,6 +320,9 @@ section.bottom-footer {
     color: #ffffff;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .footer-pict {
