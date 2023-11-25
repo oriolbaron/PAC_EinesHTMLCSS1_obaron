@@ -90,67 +90,35 @@ blockquote {
 
 /*Menu navegació*/
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
 .navbar {
-    background-color: #000000;
+    background-color: #333;
     padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-#navMenu {
     position: fixed;
+    width: 100%;
     top: 0;
-    width: 250px;
-    height: 100%;
-    background-color: #000000;
-    padding-top: 50px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
 }
 
-ul {
+.navbar ul {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-li {
-    text-align: center;
+.navbar li {
+    margin-right: 20px;
 }
 
-a {
+.navbar a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-size: 18px;
-    display: block;
-    padding: 15px;
 }
 
-a:active {
+.navbar a:active {
     text-decoration: none;
-    color: #ad0d0d;
+    color: #af0a0a;
     font-size: 18px;
-    display: block;
-    padding: 15px;
-    font-style: bold;
-}
-
-#closeBtn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
 }
 
 /* Pàgina de presentació */
@@ -385,13 +353,16 @@ section.bottom-footer {
     }
 
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+        padding: 10px;
     }
 
-    #navMenu {
-        width: 100%;
-        left: -100%;
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 5px 0;
     }
 
 }
@@ -445,12 +416,15 @@ section.bottom-footer {
     }
 
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+        padding: 10px;
     }
 
-    #navMenu {
-        width: 100%;
-        left: -100%;
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 5px 0;
     }
 }
