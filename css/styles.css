@@ -266,24 +266,6 @@ footer {
     border-top: 2px solid #ffffff;
 }
 
-footer article {
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 10px 20px 20px;
-    border-radius: 20px;
-    max-width: 1200px;
-    background:
-        linear-gradient(
-            90deg,
-            #670000,
-            #cb0101
-        );
-}
-
 footer section {
     padding: 0 50px;
 }
@@ -342,7 +324,6 @@ section.bottom-footer {
     margin-top: 40px;
     text-align: center;
     padding-top: 20px;
-    border-top: 1px solid #ffffff;
     max-width: 1200px;
 }
 
