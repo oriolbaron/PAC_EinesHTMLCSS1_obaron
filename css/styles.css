@@ -9,7 +9,6 @@ head {
 body {
     background-color: black;
     margin: 0 auto;
-    padding: 20px;
 }
 
 section {
@@ -261,7 +260,7 @@ footer {
     left: 0;
     bottom: 0;
     right: 0;
-    padding-bottom: 20px;
+    padding: 20px;
     margin: 0 auto;
     margin-top: 40px;
     position: relative;
@@ -270,6 +269,8 @@ footer {
 
 footer section {
     padding: 0 50px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 section.top-footer {
