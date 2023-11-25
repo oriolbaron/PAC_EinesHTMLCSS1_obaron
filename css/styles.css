@@ -119,7 +119,7 @@ blockquote {
     font-size: 12px;
 }
 
-.navbar a:active {
+.navbar a :active {
     text-decoration: none;
     color: #af0a0a;
     font-size: 12px;
@@ -149,6 +149,7 @@ blockquote {
 .pagina-detalle article {
     max-width: 300px;
     margin: 0 auto;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,12 +157,12 @@ blockquote {
     gap: 16px;
     padding: 20px 50px 40px;
     margin: -99px 20px 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     background:
         linear-gradient(
             90deg,
-            #773ecb,
-            #2663ff
+            #670000,
+            #cb0101
         );
 }
 
@@ -189,7 +190,6 @@ blockquote {
 
 .temporada iframe {
         max-width: 0 auto;
-        height: auto;
 }
 
 ul {
@@ -202,7 +202,7 @@ li {
 }
 
 li strong {
-    color: #3498db;
+    color: #670000;
 }
 
 /* Vídeos YouTube */
@@ -255,6 +255,12 @@ footer article {
         );
 }
 
+.official-website {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;    
+}
+
 footer article h3 {
     color: rgb(255, 255, 255 / 70%);
 }
@@ -268,7 +274,7 @@ footer article button {
     gap: 10px;
     padding: 0 40px 0 44px;
     width: 100%;
-    background: #0a1536;
+    background: #670000;
     border: 0;
     border-radius: 30px;
     color: #f9f9f9;
