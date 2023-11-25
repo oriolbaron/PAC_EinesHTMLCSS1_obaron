@@ -248,6 +248,8 @@ li strong {
 
 a {
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /* Vídeos YouTube */
