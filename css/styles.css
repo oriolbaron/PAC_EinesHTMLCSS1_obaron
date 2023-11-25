@@ -96,7 +96,7 @@ body {
 }
 
 .navbar {
-    background-color: #333;
+    background-color: #000000;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -112,10 +112,9 @@ button {
 #navMenu {
     position: fixed;
     top: 0;
-    left: -250px;
     width: 250px;
     height: 100%;
-    background-color: #111;
+    background-color: #000000;
     padding-top: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: 0.5s;
@@ -145,6 +144,7 @@ a:active {
     font-size: 18px;
     display: block;
     padding: 15px;
+    font-style: bold;
 }
 
 #closeBtn {
