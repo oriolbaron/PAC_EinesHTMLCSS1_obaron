@@ -226,6 +226,32 @@ iframe {
     margin-bottom: 60px;
 }
 
+/* Cards */
+
+.official-website {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;    
+}
+
+.official-website button {
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 40px 0 44px;
+    width: 100%;
+    background: #000000;
+    border: 0;
+    border-radius: 30px;
+    color: #f9f9f9;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 /* Footer */
 
 footer {
@@ -236,7 +262,6 @@ footer {
     padding-bottom: 20px;
     margin: 0 auto;
     margin-top: 40px;
-    max-width: 1200px;
     position: relative;
 }
 
@@ -249,40 +274,13 @@ footer article {
     gap: 16px;
     padding: 10px 20px 20px;
     border-radius: 20px;
+    max-width: 1200px;
     background:
         linear-gradient(
             90deg,
             #670000,
             #cb0101
         );
-}
-
-.official-website {
-    max-width: 300px;
-    margin: 0 auto;
-    text-align: center;    
-}
-
-footer article h3 {
-    color: rgb(255, 255, 255 / 70%);
-}
-
-footer article button {
-    max-width: 300px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 0 40px 0 44px;
-    width: 100%;
-    background: #670000;
-    border: 0;
-    border-radius: 30px;
-    color: #f9f9f9;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: bold;
 }
 
 footer section {
@@ -344,6 +342,7 @@ section.bottom-footer {
     text-align: center;
     padding-top: 20px;
     border-top: 1px solid #ffffff;
+    max-width: 1200px;
 }
 
 .footer-pict img {
