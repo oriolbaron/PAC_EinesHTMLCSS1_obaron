@@ -152,10 +152,13 @@ blockquote {
 
 .navbar li:hover a {
     color: #af0a0a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     font-weight: bold;
-    margin-inline: 20px;
+    margin-inline: 15px;
     margin-inline-start: 10px;
     margin-inline-end: 10px;
+    transition: font-weight 0.3s ease-in-out;
 }
 
 .navbar li:hover a::before {
