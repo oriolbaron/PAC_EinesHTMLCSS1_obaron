@@ -257,13 +257,13 @@ td {
 }
 
 .temporada-card {
-    align-items: center;
     width: 800px;
     max-width: 650px;
     padding: 50px 30px 50px 20px;
     background: #670000;
     border-radius: 24px;
     margin: 20px;
+    text-align: center;
 }
 
 .temporada-card img {
