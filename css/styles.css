@@ -25,7 +25,6 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 20px;
     margin-top: 40px;
-    margin-bottom: 40px;
     font-size: 24px;
     color: #ffffff;
     text-transform: uppercase;
@@ -167,6 +166,8 @@ td {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .category-card {
@@ -180,13 +181,11 @@ td {
 }
 
 .category-card img {
-    width: 290px;
-    height: 290px;
+    width: 280px;
     object-fit: cover;
     border-radius: inherit;
-    box-shadow: 0 60px40px rgb(0 0 0 / 8%);
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-    padding: 5px;
+    padding: 10px;
 }
 
 .category-card a {
@@ -328,6 +327,9 @@ iframe {
 
 .official-website-section {
     display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .official-website {
