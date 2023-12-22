@@ -28,26 +28,21 @@
         <section class="navbar">
             <ul>
                 <li>
-                    <a href="/index.html">Inicio</a>
+                    <a href="/index.html" role="region" aria-label="Inicio">Inicio</a>
                 </li>
                 <li>
-                    <a href="/temporadas.html" class="active">Temporadas</a>
+                    <a href="/temporadas.html" role="region" aria-label="Temporadas" class="active">Temporadas</a>
                 </li>
                 <li>
-                    <a href="/personajes.html">Personajes</a>
+                    <a href="/personajes.html" role="region" aria-label="Personajes">Personajes</a>
                 </li>
                 <li>
-                    <a href="/behind-scenes.html">Behind the scenes</a>
+                    <a href="/behind-scenes.html" role="region" aria-label="Detrás de las cámaras">Behind the scenes</a>
                 </li>
                 <li>
-                    <a href="/enlaces.html">Enlaces externos</a>
+                    <a href="/enlaces.html" role="region" aria-label="Enlaces externos">Enlaces externos</a>
                 </li>
             </ul>
-        </section>
-        <section class="breadcrumb">
-            <a href="/index.html">Inicio</a>
-            <span> > </span>
-            <span>Temporadas</span>
         </section>
         <section class="header">
             <picture>
@@ -55,33 +50,46 @@
                 <img src="/img/logo-elite.webp" alt="Logo oficial de Élite">
             </picture>
         </section>
+        <section class="breadcrumb">
+            <a href="/index.html">Inicio</a>
+            <span> > </span>
+            <span>Temporadas</span>
+        </section>
         <section class="temporadas">
             <h1>Élite: Descripción de Temporadas</h1>
-            <h2>Temporada 1</h2>
-            <picture>
-                <source srcset="/img/temporada-1-elite-netflix.webp" type="image/webp">
-                <img src="/img/temporada-1-elite-netflix.webp" alt="Imagen de la temporada 1 de Élite">
-            </picture>
-            <p>La primera temporada de "Élite" establece el tono oscuro y misterioso de la serie. La trama gira en torno a un asesinato en Las Encinas, una prestigiosa escuela española. Tres estudiantes de clase trabajadora son becados en la escuela, generando tensiones con los alumnos adinerados. Las relaciones complicadas, los secretos y las rivalidades se entrelazan, culminando en un asesinato que deja al espectador intrigado. La temporada explora temas como la desigualdad social, el choque cultural y la corrupción, presentando personajes complejos que enfrentan dilemas morales.</p>
-            <h2>Temporada 2</h2>
-            <picture>
-                <source srcset="/img/temporada-2-elite-netflix.webp" type="image/webp">
-                <img src="/img/temporada-2-elite-netflix.webp" alt="Imagen de la temporada 2 de Élite">
-            </picture>
-            <p>La segunda temporada se adentra en las secuelas del asesinato y presenta nuevos estudiantes en Las Encinas. Con flashbacks que revelan más detalles sobre la noche fatal, la trama se vuelve aún más intrincada. La llegada de personajes nuevos intensifica las tensiones, llevando a conflictos personales y eventos impactantes. El suspenso se mantiene mientras los secretos se desvelan lentamente. Las relaciones amorosas complicadas, los triángulos amorosos y las alianzas cambiantes agregan capas adicionales a la narrativa.</p>
-            <h2>Temporada 3</h2>
-            <picture>
-                <source srcset="/img/temporada-3-elite-netflix.webp" type="image/webp">
-                <img src="/img/temporada-3-elite-netflix.webp" alt="Imagen de la temporada 3 de Élite">
-            </picture>
-            <p>La tercera temporada lleva a "Élite" a nuevas alturas de drama. Un nuevo asesinato en Las Encinas desata una investigación policial y desentraña los oscuros secretos de los estudiantes. Los temas de la identidad de género, la homofobia y la presión social son explorados con mayor profundidad. Las relaciones amorosas alcanzan su punto máximo, mientras los personajes se enfrentan a consecuencias devastadoras. La temporada culmina en un impactante final que redefine las dinámicas del grupo de estudiantes y establece el escenario para futuros conflictos.</p>
-            <h2>Temporada 4</h2>
-            <picture>
-                <source srcset="/img/temporada-4-elite-netflix.webp" type="image/webp">
-                <img src="/img/temporada-4-elite-netflix.webp" alt="Imagen de la temporada 4 de Élite">
-            </picture>
-            <p>La cuarta temporada introduce nuevos estudiantes y mantiene la tradición de "Élite" al explorar la dinámica entre los recién llegados y los personajes establecidos. La trama se centra en un nuevo crimen, desencadenando una serie de eventos que sacuden Las Encinas. La temporada aborda la inclusión y la diversidad de una manera más pronunciada, abordando temas como el racismo y la aceptación. Las lealtades cambian, los enigmas se revelan y los personajes evolucionan, manteniendo a los espectadores cautivados con giros inesperados.</p>
-            <h2>Temporada 5</h2>
+            <div class="temporada-card">
+                <picture>
+                    <source srcset="/img/temporada-1-elite-netflix.webp" type="image/webp">
+                    <img src="/img/temporada-1-elite-netflix.webp" alt="Imagen de la temporada 1 de Élite">
+                </picture>
+                <h2>Temporada 1</h2>
+                <p>La primera temporada de "Élite" establece el tono oscuro y misterioso de la serie. La trama gira en torno a un asesinato en Las Encinas, una prestigiosa escuela española. Tres estudiantes de clase trabajadora son becados en la escuela, generando tensiones con los alumnos adinerados. Las relaciones complicadas, los secretos y las rivalidades se entrelazan, culminando en un asesinato que deja al espectador intrigado. La temporada explora temas como la desigualdad social, el choque cultural y la corrupción, presentando personajes complejos que enfrentan dilemas morales.</p>
+            </div>
+            <div class="temporada-card">
+                <picture>
+                    <source srcset="/img/temporada-2-elite-netflix.webp" type="image/webp">
+                    <img src="/img/temporada-2-elite-netflix.webp" alt="Imagen de la temporada 2 de Élite">
+                </picture>
+                <h2>Temporada 2</h2>
+                <p>La segunda temporada se adentra en las secuelas del asesinato y presenta nuevos estudiantes en Las Encinas. Con flashbacks que revelan más detalles sobre la noche fatal, la trama se vuelve aún más intrincada. La llegada de personajes nuevos intensifica las tensiones, llevando a conflictos personales y eventos impactantes. El suspenso se mantiene mientras los secretos se desvelan lentamente. Las relaciones amorosas complicadas, los triángulos amorosos y las alianzas cambiantes agregan capas adicionales a la narrativa.</p>
+            </div>
+            <div class="temporada-card">      
+                <picture>
+                    <source srcset="/img/temporada-3-elite-netflix.webp" type="image/webp">
+                    <img src="/img/temporada-3-elite-netflix.webp" alt="Imagen de la temporada 3 de Élite">
+                </picture>
+                <h2>Temporada 3</h2>
+                <p>La tercera temporada lleva a "Élite" a nuevas alturas de drama. Un nuevo asesinato en Las Encinas desata una investigación policial y desentraña los oscuros secretos de los estudiantes. Los temas de la identidad de género, la homofobia y la presión social son explorados con mayor profundidad. Las relaciones amorosas alcanzan su punto máximo, mientras los personajes se enfrentan a consecuencias devastadoras. La temporada culmina en un impactante final que redefine las dinámicas del grupo de estudiantes y establece el escenario para futuros conflictos.</p>
+            </div>
+            <div class="temporada-card">
+                <picture>
+                    <source srcset="/img/temporada-4-elite-netflix.webp" type="image/webp">
+                    <img src="/img/temporada-4-elite-netflix.webp" alt="Imagen de la temporada 4 de Élite">
+                </picture>
+                <h2>Temporada 4</h2>
+                <p>La cuarta temporada introduce nuevos estudiantes y mantiene la tradición de "Élite" al explorar la dinámica entre los recién llegados y los personajes establecidos. La trama se centra en un nuevo crimen, desencadenando una serie de eventos que sacuden Las Encinas. La temporada aborda la inclusión y la diversidad de una manera más pronunciada, abordando temas como el racismo y la aceptación. Las lealtades cambian, los enigmas se revelan y los personajes evolucionan, manteniendo a los espectadores cautivados con giros inesperados.</p>
+            </div>
+                <h2>Temporada 5</h2>
             <picture>
                 <source srcset="/img/temporada-3-elite-netflix.webp" type="image/webp">
                 <img src="/img/temporada-5-elite-netflix.webp" alt="Imagen de la temporada 5 de Élite">
