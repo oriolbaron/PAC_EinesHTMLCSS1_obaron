@@ -249,6 +249,7 @@ td {
 .temporadas {
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 40px;
