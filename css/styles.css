@@ -146,18 +146,11 @@ blockquote {
     margin-inline-end: 10px;
 }
 
-.navbar li:hover {
-    height: 85px;
-}
-
 .navbar li:hover a {
     color: #af0a0a;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: bold;
-    margin-inline: 10px;
-    margin-inline-start: 10px;
-    margin-inline-end: 10px;
     transition: 0.5s ease-in-out;
 }
 
