@@ -246,18 +246,39 @@ td {
 
 /* Pàgina de temporades */
 
-.temporadas img {
-    display: block;
-    margin: 0 auto;
-    max-width: 450px;
-    height: auto;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
 .temporadas {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.temporada-card {
+    align-items: center;
+}
+
+.temporada-card img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 450px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.temporada-card h2 {
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.temporada-card p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0 auto;
+    line-height: 1.25;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: flex;
 }
 
 /* Pàgina de detall */
