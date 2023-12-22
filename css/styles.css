@@ -248,7 +248,7 @@ td {
 
 .temporadas {
     box-sizing: border-box;
-    display: gird;
+    display: flex;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 40px;
@@ -264,7 +264,7 @@ td {
     margin: 20px;
 }
 
-.temporada-card picture {
+.temporada-card img {
     width: 280px;
     object-fit: cover;
     border-radius: inherit;
