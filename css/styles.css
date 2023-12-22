@@ -125,6 +125,7 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: stretch;
+    text-align: center;
     height: 70px;
     margin-bottom: 30px;
     margin-top: 20px;
@@ -138,7 +139,6 @@ blockquote {
 
 .navbar li {
     display: inline-block;
-    width: 90px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     text-align: center;
