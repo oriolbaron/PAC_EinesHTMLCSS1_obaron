@@ -121,7 +121,7 @@ blockquote {
 .navbar {
     background-color: #000000;
     padding: 0px;
-    margin: 0px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -153,6 +153,9 @@ blockquote {
 .navbar li:hover a {
     color: #af0a0a;
     font-weight: bold;
+    margin-inline: 20px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
 }
 
 .navbar li:hover a::before {
