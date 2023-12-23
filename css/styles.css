@@ -113,6 +113,9 @@ td {
     max-width: 350px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.animated-logo {
     animation: moureFoto 4s linear infinite;
 }
 
@@ -247,6 +250,14 @@ td {
 }
 
 /* Pàgina de presentació */
+
+.presentacio {
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 
 .portada-presentacio {
     align-items: center;
