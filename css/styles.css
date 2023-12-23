@@ -252,6 +252,9 @@ td {
     width: auto;
     margin: 10 px;
     align-items: center;
+    max-width: 500px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 /* Pàgina de temporades */
@@ -333,7 +336,6 @@ td {
 
 .card-info a {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     margin: 0 auto;
     line-height: 1.25;
     font-size: 16px;
@@ -341,6 +343,7 @@ td {
     margin-bottom: 20px;
     text-decoration: none;
     display: flex;
+    justify-content: center;
 }
 
 .card-info a:hover {
