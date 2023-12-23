@@ -292,28 +292,60 @@ td {
     display: flex;
 }
 
-/* Pàgina de detall */
-
-.pagina-detalle article {
-    max-width: 300px;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 20px 50px 40px;
-    border-radius: 20px;
+.temporada-card-info {
+    max-width: auto;
+    padding: 50px 30px 50px 20px;
     background:
-        linear-gradient(
-            90deg,
-            #670000,
-            #cb0101
-        );
+    linear-gradient(
+        90deg,
+        #670000,
+        #cb0101
+    );
+    border-radius: 24px;
+    margin: 20px;
+    text-align: center;
 }
+
+.temporada-card-info img {
+    width: 450px;
+    object-fit: cover;
+    border-radius: inherit;
+    padding: 10px;
+}
+
+.temporada-card-info h2 {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.temporada-card-info a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0 auto;
+    line-height: 1.25;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: flex;
+}
+
+.temporada-card-info a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0 auto;
+    line-height: 1.25;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    display: flex;
+}
+
+/* Pàgina de detall */
 
 .pagina-detalle article h3 {
     color: rgb(255, 255, 255 / 70%);
