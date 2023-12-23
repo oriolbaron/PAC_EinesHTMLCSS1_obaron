@@ -257,7 +257,7 @@ td {
 }
 
 .temporada-card {
-    max-width: 850px;
+    max-width: auto;
     padding: 50px 30px 50px 20px;
     background: #670000;
     border-radius: 24px;
