@@ -223,7 +223,7 @@ td {
 
 .breadcrumb {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
+    text-align: center;
     margin: 0 auto;
     line-height: 1.25;
     font-size: 14px;
@@ -283,7 +283,7 @@ td {
 
 .temporada-card p {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: justify;
     margin: 0 auto;
     line-height: 1.25;
     font-size: 16px;
@@ -388,7 +388,7 @@ iframe {
 .official-website-section {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -515,7 +515,7 @@ section.bottom-footer {
 
 /* Responsive mobile pantalles petites */
 
-@media (width < 480px) {
+@media (max-width < 480px) {
     
     footer article button {
         width: 70%;
@@ -555,11 +555,38 @@ section.bottom-footer {
         display: block;
         justify-content: center;
     }
+
+    .temporadas {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    
+    .temporada-card {
+        width: 450px;
+        max-width:450px;
+        padding: 50px 30px 50px 20px;
+        background: #670000;
+        border-radius: 24px;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .temporada-card img {
+        width: 450px;
+        object-fit: cover;
+        border-radius: inherit;
+        padding: 10px;
+    }
 }
 
 /* Responsive tablet i mobile pantalles més grans*/
 
-@media (width < 800px) {
+@media (max-width < 800px) {
 
     footer article {
         max-width: 300px;
@@ -587,22 +614,6 @@ section.bottom-footer {
         padding: 30px 50px 30px;
         max-width: 300px;
         margin: 0 auto;
-    }
-
-    .pagina-detalle article button {
-        max-width: 300px;
-        margin: 0 auto;
-        align-items: center;
-        justify-content: space-between;
-        gap: 10px;
-        width: 20%;
-        background: #000000;
-        border: 0;
-        border-radius: 30px;
-        color: #f9f9f9;
-        font-family: inherit;
-        font-size: 16px;
-        font-weight: bold;
     }
 
     .videos-grid {
@@ -635,5 +646,32 @@ section.bottom-footer {
         box-sizing: border-box;
         display: block;
         justify-content: center;
+    }
+
+    .temporadas {
+        box-sizing: border-box;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    
+    .temporada-card {
+        width: 700px;
+        max-width: 650px;
+        padding: 50px 30px 50px 20px;
+        background: #670000;
+        border-radius: 24px;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .temporada-card img {
+        width: 450px;
+        object-fit: cover;
+        border-radius: inherit;
+        padding: 10px;
     }
 }
