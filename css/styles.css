@@ -248,7 +248,7 @@ td {
 
 /* Pàgina de presentació */
 
-.portada-presentacio img {
+.portada-presentacio {
     align-items: center;
     justify-content: center;
     max-width: 500px;
