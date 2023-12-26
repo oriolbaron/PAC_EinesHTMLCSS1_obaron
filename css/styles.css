@@ -152,9 +152,8 @@ td {
     color: #670000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    font-weight: bold;
     transition: 0.5s ease-in-out;
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 
 .navbar li:hover a::before {
@@ -561,10 +560,17 @@ section.bottom-footer {
     max-width: 200px;
 }
 
-/* Responsive mobile pantalles petites */
+/* Responsive */
 
-@media (max-width < 480px) {
+@media only screen and (max-width: 600px) {
     
+    body {
+        background-color: black;
+        margin: 0 auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
     footer article button {
         width: 70%;
     }
@@ -632,94 +638,3 @@ section.bottom-footer {
     }
 }
 
-/* Responsive tablet i mobile pantalles més grans*/
-
-@media (max-width < 800px) {
-
-    footer article {
-        max-width: 300px;
-        margin: 0 auto;
-        flex-direction: row;
-        min-height: 140px;
-        padding: 30px 50px 30px;
-    }
-
-    footer article button {
-        width: auto;
-        padding: 0 20px 0 24px;
-        max-width: 300px;
-        margin: 0 auto;
-    }
-
-    section.top-footer ul {
-        padding-right: 0;
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .pagina-detalle article {
-        flex-direction: row;
-        min-height: 140px;
-        padding: 30px 50px 30px;
-        max-width: 300px;
-        margin: 0 auto;
-    }
-
-    .videos-grid {
-        grid-template-columns: 1fr;
-    }
-
-    iframe {
-        max-width: 100%;
-    }
-
-    .navbar {
-        margin-bottom: 30px;
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: stretch;
-    }
-
-    .navbar ul {
-        flex: column;
-        align-items: center;
-    }
-
-    .navbar li {
-        margin: 5px 0;
-        display: block;
-    }
-
-    .categories {
-        box-sizing: border-box;
-        display: block;
-        justify-content: center;
-    }
-
-    .temporadas {
-        box-sizing: border-box;
-        display: block;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 30px;
-        margin-bottom: 40px;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .temporada-card {
-        max-width: 450px;
-        padding: 50px 30px 50px 20px;
-        background: #670000;
-        border-radius: 24px;
-        margin: 20px;
-        text-align: center;
-    }
-    
-    .temporada-card img {
-        width: 350px;
-        object-fit: cover;
-        border-radius: inherit;
-        padding: 10px;
-    }
-}
