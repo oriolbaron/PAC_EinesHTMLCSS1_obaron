@@ -439,6 +439,10 @@ a {
     background-color: #670000;
 }
 
+.nombre-actor {
+    text-align: left;
+}
+
 /* Vídeos YouTube */
 
 .videos-grid {
