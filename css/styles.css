@@ -117,16 +117,7 @@ td {
 }
 
 .animated-logo {
-    animation: moureFoto 4s linear infinite;
-}
-
-@keyframes moureFoto {
-    0%, 100% {
-      left: 0;
-    }
-    50% {
-      left: calc(100% - 200px);
-    }
+    transform: scale(1.15);
 }
 
 /*Menu navegació*/
