@@ -117,7 +117,7 @@ td {
 }
 
 .animated-logo {
-    transform: scale(1.15);
+    transform: scale(1.25);
 }
 
 /*Menu navegació*/
@@ -200,7 +200,7 @@ td {
     width: 280px;
     object-fit: cover;
     border-radius: inherit;
-    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: circle(50% at 50% 50%);
     padding: 10px;
 }
 
