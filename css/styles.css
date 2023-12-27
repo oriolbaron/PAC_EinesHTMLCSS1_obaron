@@ -237,7 +237,7 @@ td {
     border: none;
 }
 
-.carousel-container {
+#carousel-container {
     display: flex;
     width: 300%;
     animation: carousel-animation 9s linear infinite;
