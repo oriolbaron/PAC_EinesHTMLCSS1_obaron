@@ -350,7 +350,7 @@ td {
 
 .card-info {
     max-width: auto;
-    padding: 50px 30px 50px 20px;
+    padding: 20px 20px 20px 20px;
     background:
     linear-gradient(
         90deg,
@@ -391,7 +391,7 @@ td {
 
 .card-info a:hover {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
+    justify-content: center;
     margin: 0 auto;
     line-height: 1.25;
     font-size: 16px;
