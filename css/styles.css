@@ -226,7 +226,6 @@ td {
 
 .iframe-home {
     width: 100%;
-    height: 100vh;
     border: none;
     overflow: hidden;
     max-width: 0 auto;
@@ -238,7 +237,7 @@ td {
     position: relative;
     animation: marquee-animation 30s linear infinite;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 1200px;
 }
 
 .news-item {
@@ -716,6 +715,10 @@ section.bottom-footer {
         object-fit: cover;
         border-radius: inherit;
         padding: 10px;
+    }
+
+    #marquee-container {
+        max-width: 100%;
     }
 }
 
