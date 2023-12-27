@@ -102,6 +102,11 @@ td {
     margin-bottom: 40px;
 }
 
+.divider {
+    margin: 20px 0;
+    border: 1px solid #670000;
+}
+
 /* Header */
 
 .header {
@@ -301,9 +306,7 @@ td {
 }
 
 .portada-presentacio {
-    align-items: center;
-    justify-content: center;
-    max-width: 500px;
+    max-width: 100%;
     margin-bottom: 30px;
     margin-top: 30px;
 }
