@@ -697,7 +697,7 @@ section.bottom-footer {
     }
     
     .temporada-card img {
-        width: fit-content;
+        width: 100%;
         object-fit: cover;
         border-radius: inherit;
         padding: 10px;
