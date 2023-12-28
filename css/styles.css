@@ -164,7 +164,7 @@ td {
 
 .navbar li:hover a::before {
     visibility: visible;
-    scale: 1 1;
+    transform: translateY(-10px);
 }
 
 .navbar a {
@@ -195,7 +195,7 @@ td {
     align-items: center;
     width: 300px;
     max-width: 650px;
-    padding: 50px 30 px 50 px 20px;
+    padding: 50px 30px 50px 20px;
     background: #670000;
     border-radius: 24px;
     margin: 20px;
@@ -234,7 +234,7 @@ td {
     width: 100%;
     border: none;
     overflow: hidden;
-    max-width: 0 auto;
+    margin: 0 auto;
 }
 
 #marquee-container {
@@ -346,7 +346,7 @@ td {
 }
 
 .card-info {
-    max-width: auto;
+    max-width: 100%;
     padding: 20px 20px 20px 20px;
     background:
     linear-gradient(
@@ -422,7 +422,8 @@ td {
 }
 
 .temporada iframe {
-        max-width: 0 auto;
+        margin: 0 auto;
+        max-width: 100%;
 }
 
 ul {
