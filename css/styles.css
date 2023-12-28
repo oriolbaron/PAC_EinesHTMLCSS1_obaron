@@ -241,7 +241,6 @@ td {
     white-space: nowrap;
     overflow: hidden;
     position: relative;
-    animation: marquee-animation 30s linear infinite;
     margin: 0 auto;
     max-width: 1200px;
 }
