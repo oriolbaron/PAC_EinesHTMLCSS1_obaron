@@ -22,7 +22,8 @@
         <meta name="twitter:description" content="Las Encinas es el colegio más exclusivo del país, el lugar donde estudian los hijos de la élite. Un mundo privilegiado con fiestas de alta sociedad, niños ricos, sexo y drogas y donde nada es lo que parece.">
         <meta name="twitter:image" content="https://www.elitenetflix.com/img/elite-netflix-opengraph.jpg">
         <link rel="icon" href="/img/nficon2023.ico" type="image/x-icon"> 
-        <link rel="stylesheet" href="/css/styles.css">       
+        <link rel="stylesheet" href="/css/styles.css">
+
     </head>
     <body>
         <section class="navbar">
@@ -50,8 +51,9 @@
                 <img src="/img/logo-elite.webp" alt="Logo oficial de Élite" class="animated-logo">
             </picture>
         </section>
-        <section class="iframe-home">
-            <iframe src="https://www.youtube.com/embed/7SDZ3a6ldgc?si=Vk5FJlpA0DVBMCnb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <section class="iframe-home" onclick="loadYouTubeIframe(this)">
+            <img class="youtube-thumbnail" src="https://i.ytimg.com/vi/7SDZ3a6ldgc/maxresdefault.jpg" alt="YouTube Thumbnail">
+            <iframe class="youtube-iframe" src="https://www.youtube.com/embed/7SDZ3a6ldgc?si=Vk5FJlpA0DVBMCnb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
         <section class="categories">
             <div class="category-card">
@@ -83,6 +85,7 @@
             <a href="/sobre-los-actores.html" class="news-item" aria-label="Ir a la página">Descubre más sobre los actores de Élite</a>
             <a href="/behind-scenes-temporada-7.html" class="news-item" aria-label="Ir a la página">¿Qué pasó detrás de las cámaras de la temporada 7?</a>
         </section>
+        <script src="/script/script.js"></script>
     </body>
     <footer>
         <section class="footer-pict">
