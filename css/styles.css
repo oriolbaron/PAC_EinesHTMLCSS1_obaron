@@ -124,6 +124,8 @@ td {
 
 .animated-logo {
     transform: scale(1.25);
+    width: auto;
+    height: auto;
 }
 
 /*Menu navegació*/
@@ -650,6 +652,7 @@ section.bottom-footer {
 
 .footer-pict img {
     max-width: 200px;
+    max-height: fit-content;
 }
 
 /* Responsive */
